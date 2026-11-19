@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shipuchki",
+  "version": "${version}",
+  "name": "Шипучки",
+  "description": "Броя швыряется шипучками, у Пионера шипучки летают над головой, Аквыч — админ.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.shipuchki.ShipuchkiMod"],
+    "client": ["ru.shipuchki.ShipuchkiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
